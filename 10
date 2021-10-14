@@ -1,0 +1,22 @@
+import cv2
+img = cv2.imread("img/FV4005.it.jpg")
+img2 = cv2.imread("img/AK-74.it.jpg")
+img3 = cv2.imread("img/ara.it.jpg")
+img4 = cv2.imread("img/E100.it.jpg")
+img5 = cv2.imread("img/Grille_15.it.jpg")
+img6 = cv2.imread("img/IS-4.it.jpg")
+img7 = cv2.imread("img/IS-7.it.jpg")
+img8 = cv2.imread("img/Kranvagn.it.jpg")
+img9 = cv2.imread("img/Sheridan.it.jpg")
+img10 = cv2.imread("img/waffendrager.it.jpg")
+
+
+
+
+
+
+
+a = input("Нажми или введи ")
+if a == "Ворона":
+    cv2.imshow("tanks", img)
+    cv2.waitKey(0)
